@@ -9,5 +9,9 @@ Bonus: Can you do this in one pass?
 Solution 
 O(N)
 
-A HashSet is a collection of items where every item is unique, and it is found in the java.util package:
+This question can be easily solved with the help of set in O(N) time and space complexity.
+First add all the elements of array into set and then traverse each element of array 
+and check whether K-ar[i] is present in set or not.
+
+A HashSet is a collection of items where every item is unique, and it is found in the java.util package
 
